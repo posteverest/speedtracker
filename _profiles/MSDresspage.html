@@ -1,0 +1,32 @@
+
+name: "MS Dresses page"
+
+#
+# The default profile will be the one shown when accessing the root URL of your
+# SpeedTracker site.
+# 
+default: false
+
+#
+# If you want tests to be repeated automatically, you can an interval (in hours)
+# with a minimum value of 12, as only two scheduled tests per day are allowed.
+# To disabled repeated tests, simply remove this property from the profile.
+#
+interval: 12
+
+#
+# WebPageTest test parameters.
+# For a list of supported params, check:
+#
+# https://www.npmjs.com/package/webpagetest
+#
+parameters:
+  connectivity: "Cable"
+  location: "London_EC2:Chrome"
+  runs: 1
+  url: "https://www.marksandspencer.com/l/women/partywear"
+  video: true
+
+
+
+---
