@@ -28,4 +28,4 @@ defaults:
       layout: data
       permalink: /:path/
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-slate
